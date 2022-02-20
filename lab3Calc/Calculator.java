@@ -42,9 +42,17 @@ if(symb == '-') {
 }
 if(symb == '/') {
 	//division
+	
 	results = num1 / num2;
+	
+	if( symb == '/' && num2 == 0) {
+		System.out.println("Can't do that");
+	}else {
+		
+	
 	System.out.println(results);
 }
+ }
 
 //
 //symb = input.next().charAt(0);
