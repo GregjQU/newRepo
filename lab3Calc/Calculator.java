@@ -15,7 +15,7 @@ Scanner scanner = new Scanner(System.in);
 int userInput = scanner.nextInt();
 System.out.println(userInput);
 
-char operator;
+//char operator;
 
 System.out.println("please enter an action");
 //char symbol = scanner.nextChar();
