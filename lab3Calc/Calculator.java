@@ -1,8 +1,7 @@
 package lab3Calc;
 import java.io.*;
 import java.util.Scanner;
-//import java.util.function.BinaryOperator;
-//import java.util.Scanner;
+
 
 public class Calculator {
 	
@@ -20,7 +19,7 @@ System.out.println(num1);
 
 System.out.println("please enter an action: +, -,*, or /");
 symb = scanner.next().charAt(0);
-//Scanner input = null;
+
 
 System.out.println("Please enter another number");
 num2 = scanner.nextFloat();
@@ -53,11 +52,6 @@ if(symb == '/') {
 	System.out.println(results);
 }
  }
-
-//
-//symb = input.next().charAt(0);
-
-
 
 
 	}
