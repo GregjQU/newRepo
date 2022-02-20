@@ -27,9 +27,25 @@ num2 = scanner.nextFloat();
 
 
 if(symb == '+') {
+	//addition
 	results = num1 + num2;
 	System.out.println(results);
 }
+if(symb == '-') {
+	//subtraction
+	results = num1 - num2;
+	System.out.println(results);
+}if(symb == '*') {
+	//multiplication
+	results = num1 * num2;
+	System.out.println(results);
+}
+if(symb == '/') {
+	//division
+	results = num1 / num2;
+	System.out.println(results);
+}
+
 //
 //symb = input.next().charAt(0);
 
