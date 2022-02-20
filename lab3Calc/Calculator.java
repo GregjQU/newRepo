@@ -46,7 +46,7 @@ if(symb == '/') {
 	results = num1 / num2;
 	
 	if( symb == '/' && num2 == 0) {
-		System.out.println("Can't do that");
+		System.out.println("Error: Divide by Zero");
 	}else {
 		
 	
