@@ -1,8 +1,8 @@
 package lab3Calc;
 import java.io.*;
 import java.util.Scanner;
-import java.util.function.BinaryOperator;
-import java.util.Scanner;
+//import java.util.function.BinaryOperator;
+//import java.util.Scanner;
 
 public class Calculator {
 
